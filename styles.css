@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima&display=swap');
+
+.calc-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+
+}.calc-content {
+    width: 25%;
+    height: 500px;
+    background-image: url(./editors-keys-h63fLedowK8-unsplash.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+    border-radius: 8px;
+    border-style: solid;
+}
+
+h1 {
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 30%;
+    font-size: 50px;
+    font-family: 'Agdasima', sans-serif;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.label {
+    font-family: 'Agdasima', sans-serif;
+    font-size: 25px;
+    color: aliceblue;
+}
+
+input {
+    font-family: 'Agdasima', sans-serif;
+    font-size: 18px;
+}
+
+#button {
+    margin-bottom: 10px;
+    cursor: pointer;
+    width: 150px;
+    height: 30px;
+    margin-top: 15px;
+    border-radius: 8px;
+    transition: 0.5s;
+    font-family: 'Agdasima', sans-serif;
+    font-size: 20px;
+}
+
+#button:hover {
+    transform: scale(1.2);
+}
+
+#resultado {
+    font-family: 'Agdasima', sans-serif;
+    color: aliceblue;
+    font-size: 20px;
+}
